@@ -1,0 +1,26 @@
+export const content = {
+  ar: {
+    tagline: 'أكاديمية متكاملة للقهوة والمشروبات والضيافة',
+    headline: 'أتقن فن القهوة والمشروبات والضيافة.',
+    intro: 'تعلّم بصورة عملية ومنظمة، من الأساسيات إلى مستوى الاحتراف.',
+    explore: 'استكشف الأكاديمية',
+    sections: 'مسارات التعلّم',
+    courses: 'محتوى مهني قابل للتطوير',
+    about: 'من نحن',
+    contact: 'تواصل معنا',
+    founder: 'رحلة خبرة وتعلّم مستمر',
+    years: '2013 → 2026 · أكثر من 13 عامًا من الخبرة والتعلّم',
+  },
+  en: {
+    tagline: 'The Complete Beverage & Hospitality Learning Platform',
+    headline: 'Master the Art of Coffee, Beverages & Hospitality.',
+    intro: 'Learn through a structured, practical journey from fundamentals to professional skills.',
+    explore: 'Explore the Academy',
+    sections: 'Learning pathways',
+    courses: 'Professional learning, built to grow',
+    about: 'About Us',
+    contact: 'Contact',
+    founder: 'A journey of experience and continuous learning',
+    years: '2013 → 2026 · 13+ Years of Experience & Continuous Learning',
+  },
+} as const
