@@ -1,4 +1,19 @@
-export const content = {
+
+type Language = 'ar' | 'en'
+
+type Content = {
+  tagline: string
+  headline: string
+  intro: string
+  explore: string
+  sections: string
+  about: string
+  founder: string
+  years: string
+  contact: string
+}
+
+export const content: Record<Language, Content> = {
   ar: {
     tagline: 'أكاديمية المعرفة والتطبيق المهني',
     headline: 'حوّل شغفك إلى خبرة واحتراف.',
